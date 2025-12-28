@@ -23,7 +23,7 @@ import java.util.UUID;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.mockito.Mockito.when;
 
-public class VcsGitlabTests extends ServerApplicationTests {
+public class GitLabWebhookServiceTests extends ServerApplicationTests {
 
 
     @BeforeEach

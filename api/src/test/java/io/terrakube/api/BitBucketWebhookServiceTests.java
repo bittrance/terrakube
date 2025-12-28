@@ -18,7 +18,7 @@ import java.util.UUID;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.mockito.Mockito.when;
 
-public class VcsBitbucketTests extends ServerApplicationTests{
+public class BitBucketWebhookServiceTests extends ServerApplicationTests{
 
     @BeforeEach
     public void setup() {
